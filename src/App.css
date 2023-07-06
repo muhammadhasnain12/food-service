@@ -1,0 +1,15 @@
+ul > :not(li) + li,
+ul > li:first-child {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.lorem:not(:last-child):after {
+  padding-right: 5px;
+  content: '| ';
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
